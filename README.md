@@ -1,3 +1,5 @@
+[![CI](https://github.com/avankineni/Dice/actions/workflows/work.yml/badge.svg)](https://github.com/avankineni/Dice/actions/workflows/work.yml)
+
 # Dice
 
 This repository provides a class that represents a game die, such as the
