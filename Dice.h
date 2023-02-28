@@ -11,6 +11,7 @@ class Dice
    Dice(unsigned int);
    int roll();
    vector <int> get_distribution();
+   vector <int> get_percentage();
 
   private:
    vector <int> m_roll_counter;

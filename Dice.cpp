@@ -44,3 +44,12 @@ int Dice::roll()
 vector <int> Dice::get_distribution(){
     return m_roll_counter;
 }
+vector <int> Dice::get_percentage()
+{
+  vector<int> percentage;
+  for(int i = 0; i < FACES; i++)
+  {
+    percentage.push_back(roll_counter[i]);
+  }
+  return percentage;
+}
