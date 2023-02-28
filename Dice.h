@@ -10,7 +10,7 @@ class Dice
    Dice();
    Dice(unsigned int);
    int roll();
-   vector <int> get_distribution();
+   vector <double> get_distribution();
 
   private:
    vector <int> m_roll_counter;
